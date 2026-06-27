@@ -1,0 +1,181 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pulsecare AI</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav>
+
+    <h2>Pulsecare AI 🏥</h2>
+
+    <ul>
+      <li onclick="showPage('profile')">Profile</li>
+      <li onclick="showPage('appointments')">Appointments</li>
+      <li onclick="showPage('reports')">Reports</li>
+      <li onclick="showPage('chat')">AI Chat</li>
+    </ul>
+
+  </nav>
+
+  <!-- PROFILE -->
+
+  <section id="profile" class="page active">
+
+    <div class="hero">
+
+      <h1>Your AI-Powered Healthcare Assistant</h1>
+
+      <p>
+        Smart healthcare platform for appointments,
+        AI medical summaries and wellness recommendations.
+      </p>
+
+    </div>
+
+    <div class="box">
+
+      <h2>Patient Details</h2>
+
+      <p><strong>Name:</strong> Madhumithra</p>
+
+      <p><strong>DOB:</strong> 01/10/1990</p>
+
+      <p><strong>Disease:</strong> Heart Patient</p>
+
+      <p><strong>Treatment:</strong> In Treatment</p>
+
+    </div>
+
+  </section>
+
+  <!-- APPOINTMENTS -->
+
+  <section id="appointments" class="page">
+
+    <div class="box">
+
+      <h2>Book Appointment</h2>
+
+      <input type="text" placeholder="Search Hospital">
+
+      <input type="text" placeholder="Doctor Name">
+
+      <input type="text" placeholder="Your Name">
+
+      <button>Book Now</button>
+
+    </div>
+
+  </section>
+
+  <!-- REPORTS -->
+
+  <section id="reports" class="page">
+
+    <div class="box">
+
+      <h2>Upload Medical Report</h2>
+
+      <input type="file">
+
+      <button>Generate AI Summary</button>
+
+      <div class="summary">
+
+        <h3>AI Summary</h3>
+
+        <p>
+          Blood pressure slightly high.
+          Reduce salt intake and maintain regular exercise.
+        </p>
+
+      </div>
+
+      <button class="save-btn">Save Report</button>
+
+    </div>
+
+  </section>
+
+  <!-- AI CHAT -->
+
+  <section id="chat" class="page">
+
+    <div class="box">
+
+      <h2>AI Symptom Checker</h2>
+
+      <div class="chat-box">
+
+        <p class="user-msg">
+          User: I have fever and cold
+        </p>
+
+        <p class="ai-msg">
+          AI: Mild viral symptoms detected.
+          Stay hydrated and take proper rest.
+        </p>
+
+      </div>
+
+      <div class="typing">
+        Replying in 1s...
+      </div>
+
+      <input type="text" placeholder="Type your symptoms here...">
+
+      <button>Send</button>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <div class="footer-content">
+
+      <h3>Pulsecare AI 🏥</h3>
+
+      <p>
+        AI-powered healthcare and wellness platform
+        designed for smarter patient care.
+      </p>
+
+      <p>
+        📧 support@pulsecareai.com
+      </p>
+
+      <p>
+        📞 +91 98765 43210
+      </p>
+
+      <p>
+        ⚠ Disclaimer:
+        Pulsecare AI recommendations are for informational
+        purposes only and should not replace professional medical advice.
+      </p>
+
+      <p class="copyright">
+        © 2026 Pulsecare AI. All rights reserved.
+      </p>
+
+    </div>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
+```
